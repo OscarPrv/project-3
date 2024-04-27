@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+
+nav {
+    width: 300px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(219, 219, 219);
+}
+
+.header-doc {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+nav li {
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    width: 100%;
+    padding: 18px 3px;
+    text-decoration: none;
+}
+
+nav a:link {
+    color: rgb(12, 12, 12);
+}
+
+nav a:hover {
+    border-right: 3px solid rgb(134, 134, 134);
+    background-color: #f8f8f8;
+    font-weight: bold;
+}
+
+nav a:active, a:visited, a:visited:active {
+    background-color: rgb(255, 255, 255);
+    color: rgb(12, 12, 12);
+}
+
+/*    MAIN   */
+
+main {
+    margin: 45px 60px 150px 340px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+section header {
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+
+.code-example {
+    color: rgb(78, 78, 78);
+}
+
+p code {
+    background-color: #e7e7e7;
+    padding: 1px 3px;
+    border-radius: 3px;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    font-size: 14px;
+}
+
+article p {
+    margin: 25px 0;
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+article h4 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 0px 0px 0px 20px;
+}
+
+article li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+article ul {
+    padding: 0px 0px 0px 40px;
+}
+
+
+/*   MEDIA  */
+
+@media (max-width: 750px) {
+    nav {
+        width: 130px;
+    }
+
+    .header-doc {
+        font-size: 0.8em;
+    }
+
+    nav li {
+        font-size: 0.8em;
+    }
+
+    main {
+        margin: 45px 20px 150px 140px;
+        font-size: 0.8em;
+    }
+}

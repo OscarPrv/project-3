@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Technical Documentation</title>
+</head>
+<body>
+    <nav id="navbar">
+        <header class="header-doc">HTML & CSS</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction_to_HTML_and_CSS">Introduction to HTML and CSS</a></li>
+            <li><a class="nav-link" href="#HTML_Basics">HTML Basics</a></li>
+            <li><a class="nav-link" href="#CSS_Basics">CSS Basics</a></li>
+            <li><a class="nav-link" href="#CSS_Selectors">CSS Selectors</a></li>
+            <li><a class="nav-link" href="#CSS_Box_Model">CSS Box Model</a></li>
+            <li><a class="nav-link" href="#Responsive_Web_Design">Responsive Web Design</a></li>
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section id="Introduction_to_HTML_and_CSS" class="main-section">
+            <header><h2>Introduction to HTML and CSS</h2></header>
+            <article>
+                <p>HTML (Hypertext Markup Language) and CSS (Cascading Style Sheets) are foundational technologies for building web pages. HTML provides the structure and content of a webpage through a series of elements and tags, while CSS defines the presentation and styling of these elements. Together, they enable developers to create visually appealing and interactive websites.</p>
+                <p>HTML utilizes a hierarchical structure of elements, with each element representing a specific part of the webpage, such as headings, paragraphs, images, and links. These elements are enclosed within opening and closing tags, which determine how the content is displayed in the browser. CSS, on the other hand, allows developers to customize the appearance of these elements by specifying properties like colors, fonts, margins, and borders.</p>
+                <p>Understanding the relationship between HTML and CSS is crucial for web development. While HTML defines the content and structure of a webpage, CSS controls its layout and visual presentation. By combining both technologies effectively, developers can create responsive and user-friendly websites that adapt to various devices and screen sizes.</p>
+                <h4>Key points to considerate:</h4>
+                <ul>
+                    <li>HTML (Hypertext Markup Language) is the standard markup language for creating web pages.</li>
+                    <li>CSS (Cascading Style Sheets) is used for styling HTML elements on a webpage.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="HTML_Basics" class="main-section">
+            <header><h2>HTML Basics</h2></header>
+            <article>
+                <p>HTML, as a markup language, consists of a set of predefined tags that describe the structure of a webpage. These tags define different types of content, such as headings, paragraphs, lists, and images. Each tag serves a specific purpose and can be customized using attributes to provide additional information or functionality.</p>
+                <p>HTML documents begin with a <code>!DOCTYPE html</code>  declaration, followed by an <code>html</code> element that encloses the entire document. Within the <code>html</code> element, there are two main sections: the <code>head</head></code> section, which contains meta-information about the document, such as the title and character encoding, and the <code>body</code> section, which contains the actual content of the webpage.</p>
+                <p>Developers can create HTML documents using a text editor or integrated development environment (IDE) and view them in a web browser to see the rendered output. HTML is a versatile language that allows for the creation of static web pages as well as dynamic content through the use of scripting languages like JavaScript.</p>
+                <h4>Key points to considerate:</h4>
+                <ul>
+                    <li>HTML documents are composed of elements represented by tags enclosed in angle brackets.</li>
+                    <li>Elements can have attributes that provide additional information about them.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="CSS_Basics" class="main-section">
+            <header><h2>CSS Basics</h2></header>
+            <article>
+                <p>CSS (Cascading Style Sheets) is a style sheet language used for describing the presentation of a document written in HTML. It enables developers to control the layout, colors, fonts, and other visual aspects of a webpage, providing a means to create visually appealing and consistent designs across different devices and screen sizes.</p>
+                <p>CSS operates on a rule-based model, where selectors target specific HTML elements and declarations define the style properties to be applied to those elements. Selectors can target elements based on their tag name, class, ID, or other attributes, allowing for precise control over styling.</p>
+                <p>One of the key features of CSS is its cascading nature, which means that styles can be inherited from parent elements and overridden by more specific rules. This allows for efficient styling of complex web layouts while maintaining a manageable and modular codebase.</p>
+                <p>CSS can be applied to HTML documents in various ways, including inline styles, internal stylesheets, and external stylesheets. External stylesheets are often preferred for larger projects as they allow for better organization and reusability of styles across multiple pages.</p>
+                <h4>Key points to considerate:</h4>
+                <ul>
+                    <li>CSS is used to style the appearance of HTML elements</li>
+                    <li>Selectors are used to target specific HTML elements for styling.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="CSS_Selectors" class="main-section">
+            <header><h2>CSS Selectors</h2></header>
+            <article>
+                <p>CSS selectors are powerful tools that allow developers to precisely target HTML elements for styling. They provide a way to apply styles based on various criteria such as element type, class, or ID. Element selectors are the most basic form, allowing styling to be applied to all instances of a specific HTML element. For instance, using p as a selector will apply styles to all paragraphs on the page. Class selectors, denoted by a dot (.) followed by the class name, allow for styling of specific groups of elements that share the same class attribute. This enables consistent styling across multiple elements with different tags. ID selectors, marked by a hash (#) followed by the ID name, target a single unique element on the page, useful for applying styles to a particular element that requires unique styling.</p>
+                <p>Additionally, CSS provides more advanced selectors such as attribute selectors, pseudo-classes, and combinators, which offer even greater flexibility in targeting elements based on their attributes, states, or relationships with other elements. These selectors empower developers to create highly customized and responsive designs by precisely targeting elements within the HTML structure.</p>
+                <h4>Key points to considerate:</h4>
+                <ul>
+                    <li>CSS selectors allow targeting HTML elements based on their attributes, classes, or IDs.</li>
+                    <li>Commonly used selectors include element selectors, class selectors, and ID selectors.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="CSS_Box_Model" class="main-section">
+            <header><h2>CSS Box Model</h2></header>
+            <article>
+                <p>The CSS box model is fundamental to understanding the layout and design of web pages. It conceptualizes elements on a webpage as rectangular boxes, each consisting of four distinct areas: content, padding, border, and margin. The content area holds the actual content of the element, such as text or images. Padding is the space between the content and the border, providing internal spacing within the element. Borders can be applied around the padding, delineating the edges of the element. Margins are the outermost layer, creating space between the element and adjacent elements on the page.</p>
+                <p>Understanding and manipulating the CSS box model is essential for controlling the spacing and layout of elements on a webpage. By adjusting the size, padding, border, and margin properties of elements, developers can create visually appealing and well-organized layouts that adapt to various screen sizes and devices.</p>
+                <h4>Key points to considerate:</h4>
+                <ul>
+                    <li>The CSS box model describes the design and layout of elements in CSS.</li>
+                    <li>It consists of content, padding, border, and margin.</li>
+                </ul>
+            </article>
+        </section>
+        <section id="Responsive_Web_Design" class="main-section">
+            <header><h2>Responsive Web Design</h2></header>
+            <article>
+                <p>Responsive web design is a design approach aimed at creating web pages that provide an optimal viewing experience across a wide range of devices, from desktop computers to smartphones and tablets. The goal is to ensure that web content renders smoothly and legibly on any screen size or orientation. One of the key techniques used in responsive web design is media queries, which allow developers to apply different styles based on the characteristics of the device, such as its screen width, height, or resolution.</p>
+                <p>By utilizing media queries, developers can create adaptive layouts that adjust dynamically to accommodate different devices and screen sizes. This might involve changing the layout, font sizes, or hiding/showing certain elements based on the available screen real estate. Responsive web design is essential in today's multi-device landscape, enabling websites to provide a consistent and user-friendly experience across all platforms, thereby reaching a wider audience and improving user engagement.</p>
+                <h4>Key points to considerate:</h4>
+                <ul>
+                    <li>Responsive web design ensures that web pages render well on various devices and window sizes.</li>
+                    <li>Media queries in CSS are used to apply different styles based on device characteristics.</li>
+                </ul>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
